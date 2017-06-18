@@ -1,14 +1,17 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div id="ionball"></div>
+
+  <ion-fab right top small>
+    <button ion-fab color="light"><ion-icon name="switch"></ion-icon></button>
+  </ion-fab>
+
+  <ion-fab left top small>
+    <button ion-fab color="light"><ion-icon name="exit"></ion-icon></button>
+  </ion-fab>
+
+  <ion-fab right bottom small>
+    <button (click)="refresh()" ion-fab color="light"><ion-icon name="archive"></ion-icon></button>
+  </ion-fab>
+
 </ion-content>

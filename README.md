@@ -1,26 +1,20 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Pokémon GO interface in Ionic 3
+This application shows an interface that is similar to the used in Pokémon GO when the camera is activated.
+Works on mobile environments, because depends of Cordova.
+Don't do anymore yet, only uses the camera and add the buttons.
 
-## How to use this template
+## How it works
+Is heavily based on the use of the Cordova plugin: [cordova-plugin-camera-preview](https://ionicframework.com/docs/native/camera-preview/).
+The buttons are done with ion-fabs, ion-icons, and are placed using the directives dedicated to do that, so the structure it's very simple.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## How to use it
+To execute the camera-preview plugin, it's necessary to compile the application using the [Ionic CLI](https://ionicframework.com/docs/cli/).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## References
+The application was build initially following the tutorial made by Joshua Morony 
+([@joshuamorony](https://github.com/joshuamorony)) in [Ionic GO - Create a Pokémon GO Style Interface in Ionic 2](https://www.joshmorony.com/ionic-go-create-a-pokemon-go-style-interface-in-ionic-2/).
 
-### With the Ionic CLI:
+Thanks to this tutorial I learned about the existence of the camera-preview plugin, and a basic usage.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+## In the future
+I intend to improve this example and include much more functionality in the future, like the generation of images, for example.
