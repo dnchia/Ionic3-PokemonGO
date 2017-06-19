@@ -3,6 +3,8 @@ This application shows an interface that is similar to the used in Pokémon GO w
 Works on mobile environments, because depends of Cordova.
 Don't do anymore yet, only uses the camera and add the buttons.
 
+![Dependencies status](https://david-dm.org/dnchia/Ionic3-PokemonGO.svg)
+
 ## How it works
 Is heavily based on the use of the Cordova plugin: [cordova-plugin-camera-preview](https://ionicframework.com/docs/native/camera-preview/).
 The buttons are done with ion-fabs, ion-icons, and are placed using the directives dedicated to do that, so the structure it's very simple.
